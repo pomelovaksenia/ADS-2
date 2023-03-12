@@ -12,11 +12,11 @@ double pown(double value, uint16_t n) {
         return res;
 }
 
-uint64_t fact(uint16_t n) {
+uint64_t fact(uint64_t n) {
   if (n == 0) {
             return 1;
         }
-        int res = 1;
+        uint64_t int res = 1;
         while (n >= 1) {
             res *= n;
             n--;
