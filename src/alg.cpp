@@ -12,7 +12,7 @@ double pown(double value, uint16_t n) {
         return res;
 }
 
-uint64_t fact(uint64_t n) {
+uint64_t fact(uint16_t n) {
   if (n == 0) {
             return 1;
         }
