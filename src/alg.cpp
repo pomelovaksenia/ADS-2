@@ -16,7 +16,7 @@ uint64_t fact(uint64_t n) {
   if (n == 0) {
             return 1;
         }
-        uint64_t int res = 1;
+        uint64_t res = 1;
         while (n >= 1) {
             res *= n;
             n--;
