@@ -30,7 +30,7 @@ double calcItem(double x, uint16_t n) {
 
 double expn(double x, uint16_t count) {
   double res = 1;
-        while (count > 1) {
+        while (count >= 1) {
             res += calcItem(x, count);
             count--;
         }
