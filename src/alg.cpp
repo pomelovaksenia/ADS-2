@@ -41,6 +41,7 @@ double sinn(double x, uint16_t count) {
   double res = x;
         while (count > 1) {
             res += calcItem(x, (2 * count - 2)) * pown(-1, (count - 1));
+          count--;
         }
         return res;
 }
@@ -49,6 +50,7 @@ double cosn(double x, uint16_t count) {
   double res = 1;
         while (count > 1) {
             res += calcItem(x, (2 * count - 2)) * pown(-1, (count - 1));
+          count--;
         }
         return res;
 }
