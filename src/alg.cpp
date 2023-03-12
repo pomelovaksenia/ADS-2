@@ -17,7 +17,7 @@ uint64_t fact(uint16_t n) {
             return 1;
         }
         int res = 1;
-        while (n >= 1){
+        while (n >= 1) {
             res *= n;
             n--;
         }
